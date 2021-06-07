@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bonus 3</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAV BAR  -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Homepage</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Team
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Vicent</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Béatrice</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Rosita</a>
+                </li>
+              </ul>
+            </li>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Alert box  -->
+
+    <div class="container">
+      <div class="alert alert-danger" role="alert">
+        Une erreur serveur est survenue. Veuillez rafraîchir la page ou
+        rééssayer plus tard.
+      </div>
+    </div>
+
+    <!-- MAIN -->
+
+    <div
+      class="
+        mh-100
+        container-md
+        d-flex
+        bg-light
+        justify-content-between
+        box-height
+      "
+    >
+      <div class="mt-5">
+        <h1>Hi! My name is!</h1>
+      </div>
+      <div
+        class="
+          d-flex
+          flex-column
+          justify-content-center
+          text-center
+          align-items-center
+        "
+      >
+        <img src="./img/eminem.jpg" alt="image d'Eminem" />
+        <h3>Slim Shady</h3>
+      </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <div class="container d-flex justify-content-center mt-5">
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        Signup newsletter
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="col-auto">
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">Email</div>
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inlineFormInputGroup"
+                    placeholder="ex: lala@land.com"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-body d-flex justify-content-start">
+			<button type="button" class="btn btn-primary">S'abonner</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DESCRIPTIONS -->
+    <div class="container d-flex flex-row mb-3 mt-5">
+      <div>
+        <h4>Planification</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere
+          lorem nisl, a interdum turpis iaculis quis. Mauris nec nisl mi.
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia curae.
+        </p>
+      </div>
+      <div>
+        <h4>Action</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere
+          lorem nisl, a interdum turpis iaculis quis. Mauris nec nisl mi.
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia curae.
+        </p>
+      </div>
+      <div>
+        <h4>Analysis</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere
+          lorem nisl, a interdum turpis iaculis quis. Mauris nec nisl mi.
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia curae.
+        </p>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
